@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app1.views import manjunath
+from app2.views import raavan
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app1_fifth/',manjunath,name='app1_first'),
+    path('app2_raavan/',raavan,name='app2_raavan'),
 ]

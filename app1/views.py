@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def manjunath(request):
     return HttpResponse('<h1><marque>this is my fifth project</h1>/marque')
+
+def raavan(request):
+    return HttpResponse('<h1>sunday is a holiday</h1>')
